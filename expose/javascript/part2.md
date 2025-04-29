@@ -10,30 +10,44 @@
 10. Line 12 prints 3 because the length is the number of elements in the input list prices.
 11. The function will return the array [50, 100, 150] because you can modify a const but not reassign a const.
 12. Object Notation
-    A.
-    B.
-    C.
-    D.
-    E.
+    A. let studentName = student.name;
+    B. let gradYear = student['Grad Year'];
+    C. student.greeting();
+    D. let favTeacher = student['Favorite Teacher'].name;
+    E. let cse110 = student.courseLoad[0];
 14. Arithmetic
-    A.
-    B.
-    C.
-    D.
-    E.
-    F.
-    G.
-    H.
-15. Comparison
-    A.
-    B.
-    C.
-    D.
-    E.
-    F.
-17. The difference between == and === operators
-18. Code Question
-19. The result
-20. Code Question
-21. The output of the code is
+    A. '32'
+        Integers map to their exact string representation, making it like concatenating two strings
+    B. 1
+        Subtraction only works with numbers so '3' turns into a number resulting in 3 - 2 = 1
+    C. 3
+        Null turns into a 0 for addition of numbers so 3 + 0 = 3
+    D. '3null'
+        Since '3' is a string, null turns into a string and is concatenated
+    E. 4
+        True turns into 1 for addition of numbers so it becomes 1 + 3 = 4
+    F. 0
+        False and null turn into numbers for addition so 0 + 0 = 0
+    G. '3undefined'
+        Since '3' is a string, undefined becomes a string and is concatenated
+    H. NaN
+        Undefined cannot be turned into a number so the result is NaN (Not a Number)
+16. Comparison
+    A. true
+        Strings are converted to integers when different types so 2 > 1 is true
+    B. false
+        String are compared in lexicographical ordering, meaning that it compares each character in the string in numerical order and '2' is greater than '1' for the first character
+    C. true
+        Strings are converted to integers when different types, so 2 == 2 is true
+    D. false
+        Since they are different types, the === operator evaluates to false
+    E. false
+        true is represented by 1, so 1 == 2 is false
+    F. true
+        The Boolean type case turns any value other than empty into true so it is saying true == true which is true
+18. The difference between == and === operators is that when there are different types, == converts both operands to the same type while === does not. For === to be true both operands must be of the same type and value.
+19. Code Question
+20. The result
+21. Code Question
+22. The output of the code is
 
