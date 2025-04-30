@@ -47,7 +47,11 @@
         The Boolean type case turns any value other than empty into true so it is saying true == true which is true
 18. The difference between == and === operators is that when there are different types, == converts both operands to the same type while === does not. For === to be true both operands must be of the same type and value.
 19. Code Question
-20. The result
+20. The code should return the array [2, 4, 6] because the callback is the function doSomething which multiplies the number by two and it iterates through each element in the loop.
 21. Code Question
 22. The output of the code is
+    1
+    4
+    3
+    2
 
