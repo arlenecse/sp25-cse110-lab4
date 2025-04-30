@@ -10,14 +10,14 @@
 10. Line 12 prints 3 because the length is the number of elements in the input list prices.
 11. The function will return the array [50, 100, 150] because you can modify a const but not reassign a const.
 12. Object Notation
-    A. let studentName = student.name;
-    B. let gradYear = student['Grad Year'];
-    C. student.greeting();
-    D. let favTeacher = student['Favorite Teacher'].name;
-    E. let cse110 = student.courseLoad[0];
+A. let studentName = student.name;
+B. let gradYear = student['Grad Year'];
+C. student.greeting();
+D. let favTeacher = student['Favorite Teacher'].name;
+E. let cse110 = student.courseLoad[0];
 14. Arithmetic
-    A. '32'
-        Integers map to their exact string representation, making it like concatenating two strings
+A. '32'
+    Integers map to their exact string representation, making it like concatenating two strings
     B. 1
         Subtraction only works with numbers so '3' turns into a number resulting in 3 - 2 = 1
     C. 3
